@@ -1,0 +1,40 @@
+[package]
+name = "rust_algorithms"
+version = "0.1.0"
+edition = "2021"
+authors = ["0xDevNinja <manmit0x@gmail.com>"]
+description = "Classical algorithms implemented in idiomatic Rust with property-based and unit tests."
+license = "MIT"
+repository = "https://github.com/0xDevNinja/Rust-Algorithms"
+readme = "README.md"
+keywords = ["algorithms", "data-structures", "sorting", "graph", "dynamic-programming"]
+categories = ["algorithms", "data-structures"]
+
+[dependencies]
+
+[dev-dependencies]
+quickcheck = "1.0"
+quickcheck_macros = "1.0"
+
+[lints.clippy]
+pedantic = { level = "warn", priority = -1 }
+nursery = { level = "warn", priority = -1 }
+must_use_candidate = "allow"
+missing_errors_doc = "allow"
+missing_panics_doc = "allow"
+module_name_repetitions = "allow"
+cast_possible_truncation = "allow"
+cast_sign_loss = "allow"
+cast_precision_loss = "allow"
+cast_possible_wrap = "allow"
+similar_names = "allow"
+many_single_char_names = "allow"
+needless_range_loop = "allow"
+manual_find = "allow"
+too_long_first_doc_paragraph = "allow"
+stable_sort_primitive = "allow"
+needless_for_each = "allow"
+
+[profile.release]
+lto = true
+codegen-units = 1
