@@ -17,3 +17,5 @@ pub mod counting_sort;
 pub mod radix_sort;
 
 pub mod shell_sort;
+
+pub mod tim_sort;
