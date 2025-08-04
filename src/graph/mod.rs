@@ -9,3 +9,5 @@ pub mod dijkstra;
 pub mod bellman_ford;
 
 pub mod kruskal;
+
+pub mod prim;
