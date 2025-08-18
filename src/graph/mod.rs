@@ -11,3 +11,5 @@ pub mod bellman_ford;
 pub mod kruskal;
 
 pub mod prim;
+
+pub mod topological_sort;
