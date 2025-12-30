@@ -3,7 +3,11 @@
 //! Each submodule groups related algorithms. Implementations are independent
 //! of one another and can be copied out individually.
 
+pub mod backtracking;
+pub mod data_structures;
 pub mod dynamic_programming;
 pub mod graph;
+pub mod math;
 pub mod searching;
 pub mod sorting;
+pub mod string;
