@@ -34,6 +34,10 @@ manual_find = "allow"
 too_long_first_doc_paragraph = "allow"
 stable_sort_primitive = "allow"
 needless_for_each = "allow"
+float_cmp = "allow"
+cast_lossless = "allow"
+derive_ord_xor_partial_ord = "allow"
+non_canonical_partial_ord_impl = "allow"
 
 [profile.release]
 lto = true

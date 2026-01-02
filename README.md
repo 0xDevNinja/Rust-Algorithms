@@ -55,6 +55,7 @@ Minimum supported Rust version: 1.74 (edition 2021).
 | Radix     | O(d·(n+b)) | O(d·(n+b))   | O(n+b)| yes    |
 | Shell     | O(n^1.3)*  | O(n²)        | O(1)  | no     |
 | Tim       | O(n log n) | O(n log n)   | O(n)  | yes    |
+| Bucket    | O(n + k)*  | O(n²)        | O(n+k)| yes    |
 
 ### Searching
 - Linear, Binary, Jump, Exponential, Interpolation, Ternary
