@@ -25,3 +25,5 @@ pub mod bucket_sort;
 pub mod gnome_sort;
 
 pub mod comb_sort;
+
+pub mod pigeonhole_sort;

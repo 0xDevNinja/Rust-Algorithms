@@ -58,6 +58,7 @@ Minimum supported Rust version: 1.74 (edition 2021).
 | Bucket    | O(n + k)*  | O(n²)        | O(n+k)| yes    |
 | Gnome     | O(n²)      | O(n²)        | O(1)  | yes    |
 | Comb      | ~O(n log n)| O(n²)        | O(1)  | no     |
+| Pigeonhole| O(n + r)   | O(n + r)     | O(r)  | yes    |
 
 ### Searching
 - Linear, Binary, Jump, Exponential, Interpolation, Ternary
