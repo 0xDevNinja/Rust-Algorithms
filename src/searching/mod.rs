@@ -11,3 +11,5 @@ pub mod exponential_search;
 pub mod interpolation_search;
 
 pub mod ternary_search;
+
+pub mod fibonacci_search;

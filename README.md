@@ -61,7 +61,7 @@ Minimum supported Rust version: 1.74 (edition 2021).
 | Pigeonhole| O(n + r)   | O(n + r)     | O(r)  | yes    |
 
 ### Searching
-- Linear, Binary, Jump, Exponential, Interpolation, Ternary
+- Linear, Binary, Jump, Exponential, Interpolation, Ternary, Fibonacci
 
 ### Graph
 - Breadth-first, Depth-first, Dijkstra, Bellman–Ford, Kruskal, Prim,
