@@ -35,8 +35,7 @@ pub fn fibonacci_search<T: Ord>(slice: &[T], target: &T) -> Option<usize> {
             }
         }
     }
-    if fk_minus_1 == 1 && (offset + 1) as usize <= n - 1 && &slice[(offset + 1) as usize] == target
-    {
+    if fk_minus_1 == 1 && ((offset + 1) as usize) < n && &slice[(offset + 1) as usize] == target {
         return Some((offset + 1) as usize);
     }
     None
