@@ -62,6 +62,7 @@ Minimum supported Rust version: 1.74 (edition 2021).
 
 ### Searching
 - Linear, Binary, Jump, Exponential, Interpolation, Ternary, Fibonacci
+- Sublist (subarray) search — naive O(n·m) substring match
 
 ### Graph
 - Breadth-first, Depth-first, Dijkstra, Bellman–Ford, Kruskal, Prim,

@@ -13,3 +13,5 @@ pub mod interpolation_search;
 pub mod ternary_search;
 
 pub mod fibonacci_search;
+
+pub mod sublist_search;
