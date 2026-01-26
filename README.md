@@ -66,7 +66,7 @@ Minimum supported Rust version: 1.74 (edition 2021).
 
 ### Graph
 - Breadth-first, Depth-first, Dijkstra, Bellman–Ford, Kruskal, Prim,
-  Topological sort, Floyd–Warshall
+  Topological sort, Floyd–Warshall, A* search
 
 ### Dynamic Programming
 - Fibonacci (memoised), 0/1 Knapsack, Longest Common Subsequence,

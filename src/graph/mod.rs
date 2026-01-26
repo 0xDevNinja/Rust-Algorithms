@@ -15,3 +15,5 @@ pub mod prim;
 pub mod topological_sort;
 
 pub mod floyd_warshall;
+
+pub mod a_star;
