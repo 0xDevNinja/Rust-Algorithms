@@ -17,3 +17,5 @@ pub mod topological_sort;
 pub mod floyd_warshall;
 
 pub mod a_star;
+
+pub mod tarjan_scc;
