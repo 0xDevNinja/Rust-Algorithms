@@ -19,3 +19,5 @@ pub mod floyd_warshall;
 pub mod a_star;
 
 pub mod tarjan_scc;
+
+pub mod kosaraju_scc;
