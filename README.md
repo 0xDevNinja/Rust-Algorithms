@@ -69,6 +69,9 @@ Minimum supported Rust version: 1.74 (edition 2021).
   Topological sort, Floyd–Warshall, A* search, Tarjan SCC, Kosaraju SCC,
   Edmonds–Karp max-flow, bridges & articulation points
 
+### Data Structures
+- Union-find (disjoint set) — union by rank + path compression
+
 ### Dynamic Programming
 - Fibonacci (memoised), 0/1 Knapsack, Longest Common Subsequence,
   Longest Increasing Subsequence, Edit Distance, Coin Change,

@@ -1,5 +1,7 @@
-//! Kruskal's minimum spanning tree using a union-find disjoint-set structure.
-//! O(E log E).
+//! Kruskal's minimum spanning tree using the shared union-find data
+//! structure. O(E log E).
+
+use crate::data_structures::union_find::UnionFind;
 
 #[derive(Copy, Clone, Debug, PartialEq, Eq)]
 pub struct Edge {
@@ -8,50 +10,13 @@ pub struct Edge {
     pub weight: i64,
 }
 
-struct DisjointSet {
-    parent: Vec<usize>,
-    rank: Vec<u8>,
-}
-
-impl DisjointSet {
-    fn new(n: usize) -> Self {
-        Self {
-            parent: (0..n).collect(),
-            rank: vec![0; n],
-        }
-    }
-    fn find(&mut self, x: usize) -> usize {
-        if self.parent[x] != x {
-            let root = self.find(self.parent[x]);
-            self.parent[x] = root;
-        }
-        self.parent[x]
-    }
-    fn union(&mut self, a: usize, b: usize) -> bool {
-        let ra = self.find(a);
-        let rb = self.find(b);
-        if ra == rb {
-            return false;
-        }
-        match self.rank[ra].cmp(&self.rank[rb]) {
-            std::cmp::Ordering::Less => self.parent[ra] = rb,
-            std::cmp::Ordering::Greater => self.parent[rb] = ra,
-            std::cmp::Ordering::Equal => {
-                self.parent[rb] = ra;
-                self.rank[ra] += 1;
-            }
-        }
-        true
-    }
-}
-
 /// Returns the edges of an MST and its total weight. If the graph is
 /// disconnected the result is a minimum spanning forest.
 pub fn kruskal(num_nodes: usize, edges: &[Edge]) -> (Vec<Edge>, i64) {
     let mut sorted: Vec<Edge> = edges.to_vec();
     sorted.sort_by_key(|e| e.weight);
 
-    let mut dsu = DisjointSet::new(num_nodes);
+    let mut dsu = UnionFind::new(num_nodes);
     let mut tree = Vec::with_capacity(num_nodes.saturating_sub(1));
     let mut total: i64 = 0;
     for e in sorted {
