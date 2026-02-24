@@ -72,6 +72,7 @@ Minimum supported Rust version: 1.74 (edition 2021).
 ### Data Structures
 - Union-find (disjoint set) — union by rank + path compression
 - Fenwick tree (binary indexed tree) — point update / prefix-sum query in O(log n)
+- Segment tree with lazy propagation — range add / range sum in O(log n)
 
 ### Dynamic Programming
 - Fibonacci (memoised), 0/1 Knapsack, Longest Common Subsequence,
