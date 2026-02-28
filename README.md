@@ -73,6 +73,7 @@ Minimum supported Rust version: 1.74 (edition 2021).
 - Union-find (disjoint set) — union by rank + path compression
 - Fenwick tree (binary indexed tree) — point update / prefix-sum query in O(log n)
 - Segment tree with lazy propagation — range add / range sum in O(log n)
+- Trie (prefix tree) — insert / contains / starts_with in O(L)
 
 ### Dynamic Programming
 - Fibonacci (memoised), 0/1 Knapsack, Longest Common Subsequence,
