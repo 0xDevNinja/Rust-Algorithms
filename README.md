@@ -75,6 +75,9 @@ Minimum supported Rust version: 1.74 (edition 2021).
 - Segment tree with lazy propagation — range add / range sum in O(log n)
 - Trie (prefix tree) — insert / contains / starts_with in O(L)
 
+### String
+- KMP substring search — O(n + m) using a longest-proper-prefix table
+
 ### Dynamic Programming
 - Fibonacci (memoised), 0/1 Knapsack, Longest Common Subsequence,
   Longest Increasing Subsequence, Edit Distance, Coin Change,
