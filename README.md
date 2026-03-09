@@ -77,6 +77,7 @@ Minimum supported Rust version: 1.74 (edition 2021).
 
 ### String
 - KMP substring search — O(n + m) using a longest-proper-prefix table
+- Rabin–Karp substring search — polynomial rolling hash, ~O(n + m) average
 
 ### Dynamic Programming
 - Fibonacci (memoised), 0/1 Knapsack, Longest Common Subsequence,
