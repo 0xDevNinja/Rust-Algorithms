@@ -15,3 +15,5 @@ pub mod coin_change;
 pub mod matrix_chain;
 
 pub mod rod_cutting;
+
+pub mod kadane;

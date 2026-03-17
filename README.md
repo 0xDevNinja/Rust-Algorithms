@@ -83,7 +83,7 @@ Minimum supported Rust version: 1.74 (edition 2021).
 ### Dynamic Programming
 - Fibonacci (memoised), 0/1 Knapsack, Longest Common Subsequence,
   Longest Increasing Subsequence, Edit Distance, Coin Change,
-  Matrix-Chain Multiplication, Rod Cutting
+  Matrix-Chain Multiplication, Rod Cutting, Kadane (max subarray sum)
 
 ## Contributing
 
