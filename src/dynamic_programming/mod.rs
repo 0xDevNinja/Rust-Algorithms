@@ -17,3 +17,5 @@ pub mod matrix_chain;
 pub mod rod_cutting;
 
 pub mod kadane;
+
+pub mod subset_sum;
