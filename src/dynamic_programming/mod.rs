@@ -19,3 +19,5 @@ pub mod rod_cutting;
 pub mod kadane;
 
 pub mod subset_sum;
+
+pub mod longest_palindromic_subsequence;
