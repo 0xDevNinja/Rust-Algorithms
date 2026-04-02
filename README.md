@@ -82,6 +82,7 @@ Minimum supported Rust version: 1.74 (edition 2021).
 
 ### Math
 - Sieve of Eratosthenes — primes up to N in O(N log log N)
+- Modular exponentiation — (base^exp) mod m in O(log exp), u128 intermediates
 
 ### Dynamic Programming
 - Fibonacci (memoised), 0/1 Knapsack, Longest Common Subsequence,
