@@ -3,3 +3,5 @@
 pub mod sieve_of_eratosthenes;
 
 pub mod modular_exponentiation;
+
+pub mod extended_euclidean;
