@@ -80,6 +80,9 @@ Minimum supported Rust version: 1.74 (edition 2021).
 - Rabin–Karp substring search — polynomial rolling hash, ~O(n + m) average
 - Z-algorithm — Z-array in O(n), with substring-search wrapper
 
+### Backtracking
+- N-queens — all solutions or count, by column / diagonal bookkeeping
+
 ### Math
 - Sieve of Eratosthenes — primes up to N in O(N log log N)
 - Modular exponentiation — (base^exp) mod m in O(log exp), u128 intermediates
