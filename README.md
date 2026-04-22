@@ -82,6 +82,7 @@ Minimum supported Rust version: 1.74 (edition 2021).
 
 ### Backtracking
 - N-queens — all solutions or count, by column / diagonal bookkeeping
+- Sudoku 9×9 solver — backtracking with row/col/box bitmask bookkeeping
 
 ### Math
 - Sieve of Eratosthenes — primes up to N in O(N log log N)
