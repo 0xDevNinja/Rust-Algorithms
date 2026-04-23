@@ -1,5 +1,9 @@
 # Rust-Algorithms
 
+[![CI](https://github.com/0xDevNinja/Rust-Algorithms/actions/workflows/ci.yml/badge.svg)](https://github.com/0xDevNinja/Rust-Algorithms/actions/workflows/ci.yml)
+[![Coverage](https://github.com/0xDevNinja/Rust-Algorithms/actions/workflows/coverage.yml/badge.svg)](https://github.com/0xDevNinja/Rust-Algorithms/actions/workflows/coverage.yml)
+[![codecov](https://codecov.io/gh/0xDevNinja/Rust-Algorithms/branch/main/graph/badge.svg)](https://codecov.io/gh/0xDevNinja/Rust-Algorithms)
+
 Classical algorithms implemented in idiomatic Rust, each paired with a thorough
 test suite. The goal of this repository is twofold:
 
