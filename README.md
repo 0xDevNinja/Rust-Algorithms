@@ -44,6 +44,9 @@ cargo fmt --check
 
 Minimum supported Rust version: 1.74 (edition 2021).
 
+A flat index of every implementation lives in [DIRECTORY.md](DIRECTORY.md);
+it is regenerated automatically on every push to `main`.
+
 ## Algorithms
 
 ### Sorting

@@ -1,0 +1,39 @@
+name: Directory
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'scripts/gen_directory.sh'
+      - '.github/workflows/directory.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure git identity
+        run: |
+          git config user.name '0xDevNinja'
+          git config user.email 'manmit0x@gmail.com'
+
+      - name: Regenerate DIRECTORY.md
+        run: bash scripts/gen_directory.sh
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- DIRECTORY.md; then
+            echo "DIRECTORY.md is up to date."
+          else
+            git add DIRECTORY.md
+            git commit -m "docs(directory): refresh DIRECTORY.md"
+            git push
+          fi
