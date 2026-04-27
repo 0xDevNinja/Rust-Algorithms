@@ -41,7 +41,7 @@ pub fn longest_common_substring_length<T: Eq>(a: &[T], b: &[T]) -> usize {
 
 #[cfg(test)]
 mod tests {
-    use super::{longest_common_substring_length, longest_common_substring};
+    use super::{longest_common_substring, longest_common_substring_length};
     use quickcheck_macros::quickcheck;
 
     fn brute_force(a: &[u8], b: &[u8]) -> usize {
@@ -61,7 +61,8 @@ mod tests {
     #[quickcheck]
     fn matches_brute_force(a: Vec<u8>, b: Vec<u8>) -> bool {
         let bf_len = brute_force(&a, &b);
-        longest_common_substring_length(&a, &b) == bf_len && longest_common_substring(&a, &b).len() == bf_len
+        longest_common_substring_length(&a, &b) == bf_len
+            && longest_common_substring(&a, &b).len() == bf_len
     }
 
     #[test]
