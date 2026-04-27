@@ -7,6 +7,7 @@ pub mod backtracking;
 pub mod data_structures;
 pub mod dynamic_programming;
 pub mod graph;
+pub mod greedy;
 pub mod math;
 pub mod searching;
 pub mod sorting;
