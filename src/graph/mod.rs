@@ -25,3 +25,5 @@ pub mod kosaraju_scc;
 pub mod edmonds_karp;
 
 pub mod bridges_articulation;
+
+pub mod tree_diameter;

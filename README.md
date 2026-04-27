@@ -74,7 +74,7 @@ it is regenerated automatically on every push to `main`.
 ### Graph
 - Breadth-first, Depth-first, Dijkstra, Bellman–Ford, Kruskal, Prim,
   Topological sort, Floyd–Warshall, A* search, Tarjan SCC, Kosaraju SCC,
-  Edmonds–Karp max-flow, bridges & articulation points
+  Edmonds–Karp max-flow, bridges & articulation points, tree diameter (two-BFS, O(N))
 
 ### Data Structures
 - Union-find (disjoint set) — union by rank + path compression
