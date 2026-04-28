@@ -80,6 +80,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Floyd Cycle Detection](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/math/floyd_cycle_detection.rs)
 - [Gcd Lcm](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/math/gcd_lcm.rs)
 - [Modular Exponentiation](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/math/modular_exponentiation.rs)
+- [Modular Linear Equation](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/math/modular_linear_equation.rs)
 - [Modular Ncr](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/math/modular_ncr.rs)
 - [Sieve Of Eratosthenes](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/math/sieve_of_eratosthenes.rs)
 - [Zellers Congruence](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/math/zellers_congruence.rs)

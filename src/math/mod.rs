@@ -18,4 +18,6 @@ pub mod catalan_numbers;
 
 pub mod floyd_cycle_detection;
 
+pub mod modular_linear_equation;
+
 pub mod base_conversion;
