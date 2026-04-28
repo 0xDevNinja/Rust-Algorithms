@@ -32,6 +32,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 ## Dynamic Programming
 
 - [Coin Change](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/dynamic_programming/coin_change.rs)
+- [Counting Tilings](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/dynamic_programming/counting_tilings.rs)
 - [Edit Distance](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/dynamic_programming/edit_distance.rs)
 - [Fibonacci](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/dynamic_programming/fibonacci.rs)
 - [Kadane](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/dynamic_programming/kadane.rs)
@@ -116,6 +117,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Gnome Sort](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/sorting/gnome_sort.rs)
 - [Heap Sort](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/sorting/heap_sort.rs)
 - [Insertion Sort](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/sorting/insertion_sort.rs)
+- [Median Of Medians](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/sorting/median_of_medians.rs)
 - [Merge Sort](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/sorting/merge_sort.rs)
 - [Pigeonhole Sort](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/sorting/pigeonhole_sort.rs)
 - [Quick Sort](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/sorting/quick_sort.rs)
