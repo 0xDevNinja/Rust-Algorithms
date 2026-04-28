@@ -2,6 +2,8 @@
 
 pub mod anagram;
 
+pub mod boyer_moore_horspool;
+
 pub mod kmp;
 
 pub mod rabin_karp;

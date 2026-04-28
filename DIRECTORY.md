@@ -19,6 +19,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Fenwick Tree](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/fenwick_tree.rs)
 - [Lru Cache](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/lru_cache.rs)
 - [Segment Tree](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/segment_tree.rs)
+- [Sqrt Decomposition](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/sqrt_decomposition.rs)
 - [Trie](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/trie.rs)
 - [Union Find](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/union_find.rs)
 
@@ -67,6 +68,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Activity Selection](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/greedy/activity_selection.rs)
 - [Boyer Moore Majority Vote](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/greedy/boyer_moore_majority_vote.rs)
 - [Fractional Knapsack](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/greedy/fractional_knapsack.rs)
+- [Job Sequencing](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/greedy/job_sequencing.rs)
 
 ## Math
 
@@ -76,6 +78,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Modular Exponentiation](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/math/modular_exponentiation.rs)
 - [Modular Ncr](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/math/modular_ncr.rs)
 - [Sieve Of Eratosthenes](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/math/sieve_of_eratosthenes.rs)
+- [Zellers Congruence](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/math/zellers_congruence.rs)
 
 ## Searching
 
@@ -108,6 +111,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 ## String
 
 - [Anagram](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/string/anagram.rs)
+- [Boyer Moore Horspool](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/string/boyer_moore_horspool.rs)
 - [Kmp](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/string/kmp.rs)
 - [Rabin Karp](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/string/rabin_karp.rs)
 - [Roman Numerals](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/string/roman_numerals.rs)

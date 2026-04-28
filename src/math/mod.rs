@@ -12,4 +12,6 @@ pub mod fast_doubling_fibonacci;
 
 pub mod modular_ncr;
 
+pub mod zellers_congruence;
+
 pub mod catalan_numbers;
