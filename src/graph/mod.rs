@@ -53,3 +53,5 @@ pub mod two_sat;
 pub mod heavy_light_decomposition;
 
 pub mod min_cost_max_flow;
+
+pub mod konigs_theorem;
