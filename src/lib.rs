@@ -4,6 +4,7 @@
 //! of one another and can be copied out individually.
 
 pub mod backtracking;
+pub mod bit_manipulation;
 pub mod data_structures;
 pub mod dynamic_programming;
 pub mod geometry;

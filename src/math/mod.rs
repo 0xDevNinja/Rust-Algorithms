@@ -7,3 +7,7 @@ pub mod modular_exponentiation;
 pub mod extended_euclidean;
 
 pub mod gcd_lcm;
+
+pub mod fast_doubling_fibonacci;
+
+pub mod modular_ncr;

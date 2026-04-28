@@ -34,10 +34,13 @@ pub fn weighted_interval_scheduling(intervals: &[(i64, i64, i64)]) -> (i64, Vec<
         return (0, Vec::new());
     }
 
-    // Sort a list of original indices by `end` ascending. We keep the original
-    // indices around so we can map the chosen items back at the end.
+    // Sort a list of original indices by `(end, start)` ascending. The
+    // start tie-break is essential when several intervals share an end:
+    // the canonical recurrence requires the predecessor of `j` to be the
+    // last interval with `end <= start[j]`, and an unstable end-only sort
+    // can hide a feasible predecessor whose start is smaller.
     let mut order: Vec<usize> = (0..n).collect();
-    order.sort_by_key(|&i| intervals[i].1);
+    order.sort_by_key(|&i| (intervals[i].1, intervals[i].0));
 
     let ends: Vec<i64> = order.iter().map(|&i| intervals[i].1).collect();
     let starts: Vec<i64> = order.iter().map(|&i| intervals[i].0).collect();
