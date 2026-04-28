@@ -32,6 +32,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Matrix Chain](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/dynamic_programming/matrix_chain.rs)
 - [Rod Cutting](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/dynamic_programming/rod_cutting.rs)
 - [Subset Sum](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/dynamic_programming/subset_sum.rs)
+- [Weighted Interval Scheduling](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/dynamic_programming/weighted_interval_scheduling.rs)
 
 ## Graph
 
