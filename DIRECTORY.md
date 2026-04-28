@@ -56,6 +56,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Polygon Area](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/polygon_area.rs)
 - [Polygon Centroid](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/polygon_centroid.rs)
 - [Rotating Calipers](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/rotating_calipers.rs)
+- [Welzl Smallest Enclosing Circle](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/welzl_smallest_enclosing_circle.rs)
 
 ## Graph
 
