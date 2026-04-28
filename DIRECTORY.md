@@ -19,6 +19,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 
 ## Data Structures
 
+- [Block Cut Tree](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/block_cut_tree.rs)
 - [Cartesian Tree](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/cartesian_tree.rs)
 - [Coordinate Compression](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/coordinate_compression.rs)
 - [Fenwick Tree](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/fenwick_tree.rs)
@@ -63,10 +64,12 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Dag Shortest Path](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/dag_shortest_path.rs)
 - [Dfs](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/dfs.rs)
 - [Dijkstra](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/dijkstra.rs)
+- [Dinic](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/dinic.rs)
 - [Edmonds Karp](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/edmonds_karp.rs)
 - [Eulerian Path](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/eulerian_path.rs)
 - [Floyd Warshall](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/floyd_warshall.rs)
 - [Functional Graph Rho](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/functional_graph_rho.rs)
+- [Hopcroft Karp](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/hopcroft_karp.rs)
 - [Kosaraju Scc](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/kosaraju_scc.rs)
 - [Kruskal](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/kruskal.rs)
 - [Lca Binary Lifting](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/lca_binary_lifting.rs)

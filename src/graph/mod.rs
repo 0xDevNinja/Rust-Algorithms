@@ -26,6 +26,8 @@ pub mod kosaraju_scc;
 
 pub mod edmonds_karp;
 
+pub mod dinic;
+
 pub mod bridges_articulation;
 
 pub mod tree_diameter;
@@ -39,5 +41,7 @@ pub mod lca_binary_lifting;
 pub mod functional_graph_rho;
 
 pub mod eulerian_path;
+
+pub mod hopcroft_karp;
 
 pub mod boruvka;
