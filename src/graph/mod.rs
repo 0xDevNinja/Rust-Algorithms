@@ -43,3 +43,5 @@ pub mod functional_graph_rho;
 pub mod eulerian_path;
 
 pub mod hopcroft_karp;
+
+pub mod boruvka;
