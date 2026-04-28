@@ -63,6 +63,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Boruvka](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/boruvka.rs)
 - [Bridges Articulation](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/bridges_articulation.rs)
 - [Dag Shortest Path](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/dag_shortest_path.rs)
+- [De Bruijn](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/de_bruijn.rs)
 - [Dfs](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/dfs.rs)
 - [Dijkstra](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/dijkstra.rs)
 - [Dinic](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/dinic.rs)
