@@ -16,6 +16,8 @@ pub mod finite_automaton_match;
 
 pub mod kmp;
 
+pub mod lcp_kasai;
+
 pub mod lyndon_duval;
 
 pub mod manacher;
