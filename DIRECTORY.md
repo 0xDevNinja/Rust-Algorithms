@@ -34,6 +34,10 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Subset Sum](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/dynamic_programming/subset_sum.rs)
 - [Weighted Interval Scheduling](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/dynamic_programming/weighted_interval_scheduling.rs)
 
+## Geometry
+
+- [Polygon Area](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/polygon_area.rs)
+
 ## Graph
 
 - [A Star](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/a_star.rs)
@@ -97,5 +101,6 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Kmp](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/string/kmp.rs)
 - [Rabin Karp](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/string/rabin_karp.rs)
 - [Roman Numerals](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/string/roman_numerals.rs)
+- [Run Length Encoding](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/string/run_length_encoding.rs)
 - [Z Algorithm](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/string/z_algorithm.rs)
 
