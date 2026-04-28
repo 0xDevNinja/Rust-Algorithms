@@ -53,3 +53,5 @@ pub mod two_sat;
 pub mod heavy_light_decomposition;
 
 pub mod johnsons_apsp;
+
+pub mod konigs_theorem;
