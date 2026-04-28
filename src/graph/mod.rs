@@ -62,4 +62,6 @@ pub mod konigs_theorem;
 
 pub mod karger_min_cut;
 
+pub mod matrix_tree;
+
 pub mod bron_kerbosch;

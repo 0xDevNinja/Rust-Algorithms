@@ -80,6 +80,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Kosaraju Scc](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/kosaraju_scc.rs)
 - [Kruskal](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/kruskal.rs)
 - [Lca Binary Lifting](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/lca_binary_lifting.rs)
+- [Matrix Tree](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/matrix_tree.rs)
 - [Min Cost Max Flow](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/min_cost_max_flow.rs)
 - [Prim](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/prim.rs)
 - [Tarjan Scc](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/tarjan_scc.rs)
