@@ -111,6 +111,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Merge Sort](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/sorting/merge_sort.rs)
 - [Pigeonhole Sort](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/sorting/pigeonhole_sort.rs)
 - [Quick Sort](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/sorting/quick_sort.rs)
+- [Quickselect](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/sorting/quickselect.rs)
 - [Radix Sort](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/sorting/radix_sort.rs)
 - [Selection Sort](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/sorting/selection_sort.rs)
 - [Shell Sort](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/sorting/shell_sort.rs)
