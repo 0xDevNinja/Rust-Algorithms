@@ -13,6 +13,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 ## Data Structures
 
 - [Fenwick Tree](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/fenwick_tree.rs)
+- [Lru Cache](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/lru_cache.rs)
 - [Segment Tree](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/segment_tree.rs)
 - [Trie](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/trie.rs)
 - [Union Find](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/union_find.rs)
@@ -52,11 +53,13 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 
 ## Greedy
 
+- [Activity Selection](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/greedy/activity_selection.rs)
 - [Boyer Moore Majority Vote](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/greedy/boyer_moore_majority_vote.rs)
 
 ## Math
 
 - [Extended Euclidean](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/math/extended_euclidean.rs)
+- [Gcd Lcm](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/math/gcd_lcm.rs)
 - [Modular Exponentiation](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/math/modular_exponentiation.rs)
 - [Sieve Of Eratosthenes](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/math/sieve_of_eratosthenes.rs)
 
