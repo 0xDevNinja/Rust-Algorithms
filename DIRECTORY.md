@@ -62,6 +62,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Bipartite](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/bipartite.rs)
 - [Boruvka](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/boruvka.rs)
 - [Bridges Articulation](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/bridges_articulation.rs)
+- [Centroid Decomposition](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/centroid_decomposition.rs)
 - [Dag Shortest Path](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/dag_shortest_path.rs)
 - [De Bruijn](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/de_bruijn.rs)
 - [Dfs](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/dfs.rs)
