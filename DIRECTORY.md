@@ -16,6 +16,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 
 ## Data Structures
 
+- [Coordinate Compression](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/coordinate_compression.rs)
 - [Fenwick Tree](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/fenwick_tree.rs)
 - [Lru Cache](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/lru_cache.rs)
 - [Segment Tree](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/segment_tree.rs)
@@ -41,6 +42,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 
 ## Geometry
 
+- [Point In Polygon](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/point_in_polygon.rs)
 - [Polygon Area](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/polygon_area.rs)
 - [Polygon Centroid](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/polygon_centroid.rs)
 
@@ -72,6 +74,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 
 ## Math
 
+- [Catalan Numbers](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/math/catalan_numbers.rs)
 - [Extended Euclidean](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/math/extended_euclidean.rs)
 - [Fast Doubling Fibonacci](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/math/fast_doubling_fibonacci.rs)
 - [Gcd Lcm](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/math/gcd_lcm.rs)

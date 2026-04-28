@@ -11,3 +11,5 @@ pub mod trie;
 pub mod lru_cache;
 
 pub mod sqrt_decomposition;
+
+pub mod coordinate_compression;
