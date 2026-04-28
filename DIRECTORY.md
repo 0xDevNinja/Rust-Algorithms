@@ -6,6 +6,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 
 ## Backtracking
 
+- [Knights Tour](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/backtracking/knights_tour.rs)
 - [N Queens](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/backtracking/n_queens.rs)
 - [Permutations Combinations](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/backtracking/permutations_combinations.rs)
 - [Sudoku](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/backtracking/sudoku.rs)
@@ -13,6 +14,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 ## Bit Manipulation
 
 - [Cookbook](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/bit_manipulation/cookbook.rs)
+- [Subset Enumeration](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/bit_manipulation/subset_enumeration.rs)
 
 ## Data Structures
 
@@ -37,6 +39,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Longest Increasing Subsequence](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/dynamic_programming/longest_increasing_subsequence.rs)
 - [Longest Palindromic Subsequence](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/dynamic_programming/longest_palindromic_subsequence.rs)
 - [Matrix Chain](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/dynamic_programming/matrix_chain.rs)
+- [Matrix Exponentiation](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/dynamic_programming/matrix_exponentiation.rs)
 - [Rod Cutting](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/dynamic_programming/rod_cutting.rs)
 - [Subset Sum](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/dynamic_programming/subset_sum.rs)
 - [Weighted Interval Scheduling](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/dynamic_programming/weighted_interval_scheduling.rs)
@@ -65,6 +68,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Tarjan Scc](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/tarjan_scc.rs)
 - [Topological Sort](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/topological_sort.rs)
 - [Tree Diameter](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/tree_diameter.rs)
+- [Zero One Bfs](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/zero_one_bfs.rs)
 
 ## Greedy
 
@@ -120,6 +124,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 ## String
 
 - [Anagram](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/string/anagram.rs)
+- [Booths Least Rotation](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/string/booths_least_rotation.rs)
 - [Boyer Moore Horspool](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/string/boyer_moore_horspool.rs)
 - [Kmp](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/string/kmp.rs)
 - [Rabin Karp](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/string/rabin_karp.rs)
