@@ -47,3 +47,5 @@ pub mod hopcroft_karp;
 pub mod boruvka;
 
 pub mod de_bruijn;
+
+pub mod two_sat;
