@@ -6,4 +6,6 @@ pub mod rabin_karp;
 
 pub mod roman_numerals;
 
+pub mod run_length_encoding;
+
 pub mod z_algorithm;
