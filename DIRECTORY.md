@@ -50,9 +50,11 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 
 ## Geometry
 
+- [Convex Hull](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/convex_hull.rs)
 - [Point In Polygon](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/point_in_polygon.rs)
 - [Polygon Area](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/polygon_area.rs)
 - [Polygon Centroid](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/polygon_centroid.rs)
+- [Rotating Calipers](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/rotating_calipers.rs)
 
 ## Graph
 
