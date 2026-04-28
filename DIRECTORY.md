@@ -85,6 +85,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Min Cost Max Flow](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/min_cost_max_flow.rs)
 - [Min Path Cover Dag](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/min_path_cover_dag.rs)
 - [Prim](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/prim.rs)
+- [Push Relabel](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/push_relabel.rs)
 - [Stoer Wagner](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/stoer_wagner.rs)
 - [Tarjan Scc](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/tarjan_scc.rs)
 - [Topological Sort](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/topological_sort.rs)
