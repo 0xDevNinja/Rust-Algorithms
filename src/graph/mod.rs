@@ -44,4 +44,6 @@ pub mod eulerian_path;
 
 pub mod hopcroft_karp;
 
+pub mod boruvka;
+
 pub mod de_bruijn;

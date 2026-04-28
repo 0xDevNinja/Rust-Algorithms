@@ -60,6 +60,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Bellman Ford](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/bellman_ford.rs)
 - [Bfs](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/bfs.rs)
 - [Bipartite](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/bipartite.rs)
+- [Boruvka](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/boruvka.rs)
 - [Bridges Articulation](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/bridges_articulation.rs)
 - [Dag Shortest Path](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/dag_shortest_path.rs)
 - [Dfs](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/dfs.rs)
