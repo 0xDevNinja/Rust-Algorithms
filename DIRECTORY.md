@@ -154,8 +154,10 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Boyer Moore Horspool](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/string/boyer_moore_horspool.rs)
 - [Kmp](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/string/kmp.rs)
 - [Manacher](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/string/manacher.rs)
+- [Polynomial Hash](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/string/polynomial_hash.rs)
 - [Rabin Karp](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/string/rabin_karp.rs)
 - [Roman Numerals](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/string/roman_numerals.rs)
 - [Run Length Encoding](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/string/run_length_encoding.rs)
+- [Suffix Array](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/string/suffix_array.rs)
 - [Z Algorithm](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/string/z_algorithm.rs)
 
