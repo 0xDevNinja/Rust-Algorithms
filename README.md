@@ -98,9 +98,9 @@ it is regenerated automatically on every push to `main`.
 
 ### Dynamic Programming
 - Fibonacci (memoised), 0/1 Knapsack, Longest Common Subsequence,
-  Longest Increasing Subsequence, Edit Distance, Coin Change,
-  Matrix-Chain Multiplication, Rod Cutting, Kadane (max subarray sum),
-  Subset-sum, Longest Palindromic Subsequence
+  Longest Common Substring, Longest Increasing Subsequence, Edit Distance, 
+  Coin Change, Matrix-Chain Multiplication, Rod Cutting, 
+  Kadane (max subarray sum), Subset-sum, Longest Palindromic Subsequence
 
 ## Contributing
 
