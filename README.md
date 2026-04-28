@@ -76,6 +76,9 @@ it is regenerated automatically on every push to `main`.
   Topological sort, Floyd–Warshall, A* search, Tarjan SCC, Kosaraju SCC,
   Edmonds–Karp max-flow, bridges & articulation points, tree diameter (two-BFS, O(N))
 
+### Greedy
+- Boyer-Moore Majority Vote
+
 ### Data Structures
 - Union-find (disjoint set) — union by rank + path compression
 - Fenwick tree (binary indexed tree) — point update / prefix-sum query in O(log n)
