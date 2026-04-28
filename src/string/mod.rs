@@ -10,9 +10,15 @@ pub mod boyer_moore;
 
 pub mod boyer_moore_horspool;
 
+pub mod eertree;
+
+pub mod finite_automaton_match;
+
 pub mod kmp;
 
 pub mod lcp_kasai;
+
+pub mod lyndon_duval;
 
 pub mod manacher;
 
@@ -25,5 +31,7 @@ pub mod roman_numerals;
 pub mod run_length_encoding;
 
 pub mod suffix_array;
+
+pub mod suffix_automaton;
 
 pub mod z_algorithm;
