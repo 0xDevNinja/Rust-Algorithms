@@ -83,6 +83,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Matrix Tree](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/matrix_tree.rs)
 - [Min Cost Max Flow](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/min_cost_max_flow.rs)
 - [Prim](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/prim.rs)
+- [Stoer Wagner](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/stoer_wagner.rs)
 - [Tarjan Scc](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/tarjan_scc.rs)
 - [Topological Sort](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/topological_sort.rs)
 - [Tree Diameter](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/graph/tree_diameter.rs)
