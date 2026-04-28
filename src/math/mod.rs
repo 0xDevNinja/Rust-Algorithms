@@ -15,3 +15,5 @@ pub mod modular_ncr;
 pub mod zellers_congruence;
 
 pub mod catalan_numbers;
+
+pub mod floyd_cycle_detection;
