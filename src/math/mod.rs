@@ -21,3 +21,5 @@ pub mod floyd_cycle_detection;
 pub mod modular_linear_equation;
 
 pub mod base_conversion;
+
+pub mod reservoir_sampling;
