@@ -153,6 +153,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Booths Least Rotation](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/string/booths_least_rotation.rs)
 - [Boyer Moore Horspool](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/string/boyer_moore_horspool.rs)
 - [Kmp](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/string/kmp.rs)
+- [Manacher](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/string/manacher.rs)
 - [Rabin Karp](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/string/rabin_karp.rs)
 - [Roman Numerals](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/string/roman_numerals.rs)
 - [Run Length Encoding](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/string/run_length_encoding.rs)

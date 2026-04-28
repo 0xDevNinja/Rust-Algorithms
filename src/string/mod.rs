@@ -8,6 +8,8 @@ pub mod boyer_moore_horspool;
 
 pub mod kmp;
 
+pub mod manacher;
+
 pub mod polynomial_hash;
 
 pub mod rabin_karp;
