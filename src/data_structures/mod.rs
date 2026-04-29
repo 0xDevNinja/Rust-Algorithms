@@ -33,3 +33,5 @@ pub mod mos_algorithm;
 pub mod interval_tree;
 
 pub mod fibonacci_heap;
+
+pub mod treap;
