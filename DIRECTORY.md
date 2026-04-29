@@ -34,6 +34,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Separate Chaining Hash Table](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/separate_chaining_hash_table.rs)
 - [Sparse Table](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/sparse_table.rs)
 - [Sqrt Decomposition](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/sqrt_decomposition.rs)
+- [Treap](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/treap.rs)
 - [Trie](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/trie.rs)
 - [Union Find](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/union_find.rs)
 
