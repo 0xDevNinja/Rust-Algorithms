@@ -2,4 +2,6 @@
 
 pub mod n_queens;
 
+pub mod permutations_combinations;
+
 pub mod sudoku;
