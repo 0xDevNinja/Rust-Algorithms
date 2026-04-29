@@ -34,10 +34,10 @@ pub mod interval_tree;
 
 pub mod fibonacci_heap;
 
-pub mod splay_tree;
 pub mod b_tree;
 pub mod dynamic_segment_tree;
 pub mod kd_tree_2d;
+pub mod splay_tree;
 pub mod treap;
 
 pub mod order_statistic_tree;
