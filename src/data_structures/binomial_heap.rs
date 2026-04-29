@@ -170,9 +170,7 @@ impl<T: Ord> BinomialHeap<T> {
         let mut i = 0;
         while i + 1 < self.roots.len() {
             if self.roots[i].degree == self.roots[i + 1].degree {
-                if i + 2 < self.roots.len()
-                    && self.roots[i].degree == self.roots[i + 2].degree
-                {
+                if i + 2 < self.roots.len() && self.roots[i].degree == self.roots[i + 2].degree {
                     // Three-way tie: leave roots[i] in place, link [i+1] and
                     // [i+2] together.
                     let b = self.roots.remove(i + 2);
