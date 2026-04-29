@@ -491,10 +491,7 @@ mod tests {
             );
         }
         // Distances must match brute-force.
-        let mut brute: Vec<f64> = pts
-            .iter()
-            .map(|&p| p.0.hypot(p.1))
-            .collect();
+        let mut brute: Vec<f64> = pts.iter().map(|&p| p.0.hypot(p.1)).collect();
         brute.sort_by(f64::total_cmp);
         for (r, b) in result.iter().zip(brute.iter()) {
             assert!(approx_eq(r.1, *b));
@@ -597,10 +594,10 @@ mod tests {
 
         // It is possible that multiple points share the minimum distance;
         // compare squared distances rather than coordinates.
-        let tree_d2 = (tree_pt.0 - q.0)
-            .mul_add(tree_pt.0 - q.0, (tree_pt.1 - q.1) * (tree_pt.1 - q.1));
-        let brute_d2 = (brute_pt.0 - q.0)
-            .mul_add(brute_pt.0 - q.0, (brute_pt.1 - q.1) * (brute_pt.1 - q.1));
+        let tree_d2 =
+            (tree_pt.0 - q.0).mul_add(tree_pt.0 - q.0, (tree_pt.1 - q.1) * (tree_pt.1 - q.1));
+        let brute_d2 =
+            (brute_pt.0 - q.0).mul_add(brute_pt.0 - q.0, (brute_pt.1 - q.1) * (brute_pt.1 - q.1));
 
         TestResult::from_bool(tree_d2.total_cmp(&brute_d2).is_eq())
     }
