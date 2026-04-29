@@ -21,6 +21,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 
 - [Avl Tree](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/avl_tree.rs)
 - [B Tree](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/b_tree.rs)
+- [Binomial Heap](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/binomial_heap.rs)
 - [Block Cut Tree](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/block_cut_tree.rs)
 - [Cartesian Tree](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/cartesian_tree.rs)
 - [Coordinate Compression](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/coordinate_compression.rs)
