@@ -19,3 +19,5 @@ pub mod sparse_table;
 pub mod cartesian_tree;
 
 pub mod block_cut_tree;
+
+pub mod red_black_tree;
