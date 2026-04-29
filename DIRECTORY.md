@@ -37,6 +37,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Order Statistic Tree](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/order_statistic_tree.rs)
 - [Red Black Tree](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/red_black_tree.rs)
 - [Segment Tree](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/segment_tree.rs)
+- [Segment Tree 2d](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/segment_tree_2d.rs)
 - [Separate Chaining Hash Table](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/separate_chaining_hash_table.rs)
 - [Skip List](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/skip_list.rs)
 - [Sparse Table](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/sparse_table.rs)
