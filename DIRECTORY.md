@@ -25,6 +25,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Coordinate Compression](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/coordinate_compression.rs)
 - [Fenwick Tree](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/fenwick_tree.rs)
 - [Fenwick Tree 2d](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/fenwick_tree_2d.rs)
+- [Fibonacci Heap](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/fibonacci_heap.rs)
 - [Interval Tree](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/interval_tree.rs)
 - [Lru Cache](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/lru_cache.rs)
 - [Mos Algorithm](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/mos_algorithm.rs)
