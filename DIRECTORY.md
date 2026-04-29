@@ -30,6 +30,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Lru Cache](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/lru_cache.rs)
 - [Mos Algorithm](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/mos_algorithm.rs)
 - [Open Addressing Hash Table](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/open_addressing_hash_table.rs)
+- [Order Statistic Tree](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/order_statistic_tree.rs)
 - [Segment Tree](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/segment_tree.rs)
 - [Separate Chaining Hash Table](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/separate_chaining_hash_table.rs)
 - [Sparse Table](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/sparse_table.rs)

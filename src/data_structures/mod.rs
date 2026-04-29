@@ -36,4 +36,6 @@ pub mod fibonacci_heap;
 
 pub mod treap;
 
+pub mod order_statistic_tree;
+
 pub mod skip_list;
