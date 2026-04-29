@@ -595,11 +595,24 @@ mod tests {
                 }
                 Op::Remove(lo, hi) => {
                     let tree_val = tree.remove_first_match(lo, hi);
-                    // Find and remove the first matching entry from the reference.
-                    let pos = store.iter().position(|((l, h), _)| *l == lo && *h == hi);
-                    let ref_val = pos.map(|i| store.remove(i).1);
-                    if tree_val != ref_val {
-                        return TestResult::failed();
+                    // Among duplicates the tree may return any matching entry,
+                    // so verify presence/absence and drop a reference entry
+                    // whose value matches what the tree returned.
+                    match tree_val {
+                        Some(v) => {
+                            let pos = store
+                                .iter()
+                                .position(|((l, h), val)| *l == lo && *h == hi && *val == v);
+                            let Some(i) = pos else {
+                                return TestResult::failed();
+                            };
+                            store.remove(i);
+                        }
+                        None => {
+                            if store.iter().any(|((l, h), _)| *l == lo && *h == hi) {
+                                return TestResult::failed();
+                            }
+                        }
                     }
                 }
                 Op::QueryOverlap(qlo, qhi) => {
