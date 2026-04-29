@@ -28,4 +28,8 @@ pub mod separate_chaining_hash_table;
 
 pub mod open_addressing_hash_table;
 
+<<<<<<< HEAD
 pub mod mos_algorithm;
+=======
+pub mod treap;
+>>>>>>> 570c128 (feat(data-structures): add treap)
