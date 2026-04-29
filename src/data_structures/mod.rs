@@ -24,6 +24,10 @@ pub mod cartesian_tree;
 
 pub mod block_cut_tree;
 
+<<<<<<< HEAD
 pub mod separate_chaining_hash_table;
 
 pub mod open_addressing_hash_table;
+=======
+pub mod interval_tree;
+>>>>>>> 5251ef0 (feat(data-structures): add interval tree)
