@@ -35,3 +35,9 @@ pub mod interval_tree;
 pub mod fibonacci_heap;
 
 pub mod kd_tree_2d;
+pub mod b_tree;
+pub mod treap;
+
+pub mod order_statistic_tree;
+
+pub mod skip_list;
