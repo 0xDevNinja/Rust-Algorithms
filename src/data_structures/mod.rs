@@ -28,4 +28,8 @@ pub mod separate_chaining_hash_table;
 
 pub mod open_addressing_hash_table;
 
+<<<<<<< HEAD
 pub mod mos_algorithm;
+=======
+pub mod skip_list;
+>>>>>>> dddd5fe (feat(data-structures): add skip list)
