@@ -35,3 +35,5 @@ pub mod interval_tree;
 pub mod fibonacci_heap;
 
 pub mod treap;
+
+pub mod order_statistic_tree;
