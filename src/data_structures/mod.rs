@@ -29,3 +29,7 @@ pub mod separate_chaining_hash_table;
 pub mod open_addressing_hash_table;
 
 pub mod mos_algorithm;
+
+pub mod interval_tree;
+
+pub mod order_statistic_tree;
