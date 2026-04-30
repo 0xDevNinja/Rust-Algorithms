@@ -49,3 +49,5 @@ pub mod boruvka;
 pub mod de_bruijn;
 
 pub mod two_sat;
+
+pub mod heavy_light_decomposition;
