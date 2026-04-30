@@ -1,5 +1,33 @@
-//! Area of the union of axis-aligned rectangles via sweep-line and
-//! coordinate-compressed segment tree (Klee's algorithm). O(n log n) time, O(n) space.
+
+//! Area of the union of axis-aligned rectangles via sweep line and
+//! coordinate-compressed segment tree.
+//!
+//! Given `n` rectangles, each specified as `(x1, y1, x2, y2)`, compute
+//! the total area covered by their union without double-counting overlaps.
+//!
+//! # Algorithm
+//!
+//! 1. **Coordinate compress** the y-axis: collect all unique y-values from
+//!    the input and map them to contiguous interval indices.
+//! 2. **Build events**: each rectangle produces two — an `Open` event at
+//!    `x1` and a `Close` event at `x2`, both carrying the rectangle's
+//!    y-range. Sort events by x.
+//! 3. **Sweep** a vertical line left to right. Between consecutive events,
+//!    the covered y-length is constant; accumulate `slab_width × covered_y`.
+//! 4. **Segment tree** (`CoverTree`) maintains the covered y-length after
+//!    each event in `O(log n)`. Each node tracks how many rectangles fully
+//!    cover its y-interval (`cover_count`); the root always holds the total
+//!    covered y-length (`covered_len`).
+//!
+//! # Complexity
+//!
+//! * Time: `O(n log n)` — `2n` events, each requiring one `O(log n)` tree update.
+//! * Space: `O(n)` — events, compressed y-values, and the segment tree.
+//!
+//! # Preconditions
+//!
+//! Each rectangle must satisfy `x1 < x2` and `y1 < y2`. Violating this
+//! will trigger a panic at the assertion inside the sweep loop.
 
 #[derive(Debug, Copy, Clone)]
 enum SegStatus {

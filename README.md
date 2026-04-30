@@ -189,6 +189,7 @@ Other:
 - Line-segment intersection
 - Rotating calipers — polygon diameter, O(n)
 - Welzl's smallest enclosing circle — expected O(n)
+- Rectangle Union Area - Klee's Algorithm
 
 ### Dynamic Programming
 - Fibonacci (memoised), 0/1 Knapsack, Longest Common Subsequence,
@@ -196,9 +197,6 @@ Other:
   Coin Change, Matrix-Chain Multiplication, Rod Cutting,
   Kadane (max subarray sum), Subset-sum, Longest Palindromic Subsequence,
   Weighted Interval Scheduling, Matrix Exponentiation, Counting Tilings (2×N / 4×N grids)
-
-### Geometry
-- Klee's algorithm — area of the union of axis-aligned rectangles in O(n log n)
 
 ## Contributing
 
