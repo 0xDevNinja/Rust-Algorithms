@@ -23,3 +23,5 @@ pub mod kadane;
 pub mod subset_sum;
 
 pub mod longest_palindromic_subsequence;
+
+pub mod weighted_interval_scheduling;
