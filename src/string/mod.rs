@@ -10,6 +10,8 @@ pub mod boyer_moore;
 
 pub mod boyer_moore_horspool;
 
+pub mod finite_automaton_match;
+
 pub mod kmp;
 
 pub mod manacher;
