@@ -14,4 +14,6 @@ pub mod roman_numerals;
 
 pub mod run_length_encoding;
 
+pub mod suffix_array;
+
 pub mod z_algorithm;
