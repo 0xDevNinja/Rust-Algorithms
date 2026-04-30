@@ -1,5 +1,7 @@
 //! String algorithms: substring search, suffix structures, Z-array, etc.
 
+pub mod aho_corasick;
+
 pub mod anagram;
 
 pub mod booths_least_rotation;
