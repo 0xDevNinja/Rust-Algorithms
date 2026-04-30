@@ -39,3 +39,5 @@ pub mod lca_binary_lifting;
 pub mod functional_graph_rho;
 
 pub mod eulerian_path;
+
+pub mod hopcroft_karp;
