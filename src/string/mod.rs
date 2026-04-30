@@ -8,6 +8,8 @@ pub mod boyer_moore_horspool;
 
 pub mod kmp;
 
+pub mod manacher;
+
 pub mod rabin_karp;
 
 pub mod roman_numerals;
