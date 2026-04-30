@@ -27,3 +27,5 @@ pub mod longest_palindromic_subsequence;
 pub mod weighted_interval_scheduling;
 
 pub mod matrix_exponentiation;
+
+pub mod counting_tilings;
