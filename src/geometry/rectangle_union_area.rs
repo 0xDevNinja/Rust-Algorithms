@@ -1,4 +1,3 @@
-
 //! Area of the union of axis-aligned rectangles via sweep line and
 //! coordinate-compressed segment tree.
 //!
