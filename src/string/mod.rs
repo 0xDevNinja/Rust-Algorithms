@@ -4,4 +4,6 @@ pub mod kmp;
 
 pub mod rabin_karp;
 
+pub mod roman_numerals;
+
 pub mod z_algorithm;
