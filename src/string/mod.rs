@@ -24,4 +24,6 @@ pub mod run_length_encoding;
 
 pub mod suffix_array;
 
+pub mod suffix_automaton;
+
 pub mod z_algorithm;
