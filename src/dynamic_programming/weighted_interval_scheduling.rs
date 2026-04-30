@@ -102,7 +102,7 @@ mod tests {
                 .filter(|i| mask & (1 << i) != 0)
                 .map(|i| intervals[i])
                 .collect();
-            picked.sort_by_key(|iv| iv.0);
+            picked.sort_by_key(|iv| (iv.1, iv.0));
             let ok = picked.windows(2).all(|w| w[0].1 <= w[1].0);
             if ok {
                 let total: i64 = picked.iter().map(|iv| iv.2).sum();
@@ -267,8 +267,8 @@ mod tests {
         if sum != got {
             return false;
         }
-        let mut by_start: Vec<(i64, i64, i64)> = picked.iter().map(|&i| ivs[i]).collect();
-        by_start.sort_by_key(|iv| iv.0);
-        by_start.windows(2).all(|w| w[0].1 <= w[1].0)
+        let mut by_end: Vec<(i64, i64, i64)> = picked.iter().map(|&i| ivs[i]).collect();
+        by_end.sort_by_key(|iv| (iv.1, iv.0));
+        by_end.windows(2).all(|w| w[0].1 <= w[1].0)
     }
 }
