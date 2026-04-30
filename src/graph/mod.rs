@@ -61,3 +61,5 @@ pub mod min_cost_max_flow;
 pub mod konigs_theorem;
 
 pub mod karger_min_cut;
+
+pub mod push_relabel;
