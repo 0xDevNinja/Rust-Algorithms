@@ -170,9 +170,45 @@ mod tests {
         }
     }
 
-    /// Brute-force maximum bipartite matching by trying all subsets of edges.
-    /// Only viable for tiny graphs (≤ ~20 edges).
-    fn brute_force_matching(left_adj: &[Vec<usize>], n_right: usize) -> usize {
+    /// Reference maximum-cardinality bipartite matching via Kuhn's
+    /// algorithm (simple DFS augmenting paths). O(V·E). Independent of the
+    /// Hopcroft–Karp implementation under test, so disagreement signals a
+    /// real bug.
+    fn kuhn_matching(left_adj: &[Vec<usize>], n_right: usize) -> usize {
+        fn try_kuhn(
+            u: usize,
+            left_adj: &[Vec<usize>],
+            visited: &mut [bool],
+            match_r: &mut [Option<usize>],
+        ) -> bool {
+            for &v in &left_adj[u] {
+                if visited[v] {
+                    continue;
+                }
+                visited[v] = true;
+                if match_r[v].is_none() || try_kuhn(match_r[v].unwrap(), left_adj, visited, match_r)
+                {
+                    match_r[v] = Some(u);
+                    return true;
+                }
+            }
+            false
+        }
+        let mut match_r: Vec<Option<usize>> = vec![None; n_right];
+        let mut size = 0;
+        for u in 0..left_adj.len() {
+            let mut visited = vec![false; n_right];
+            if try_kuhn(u, left_adj, &mut visited, &mut match_r) {
+                size += 1;
+            }
+        }
+        size
+    }
+
+    /// Subset-enumeration brute force used for the small unit cases
+    /// alongside Kuhn's algorithm; restricted to graphs with at most
+    /// 20 edges so `2^m` stays tractable.
+    fn brute_force_matching(left_adj: &[Vec<usize>], n_right: usize) -> Option<usize> {
         let mut edges: Vec<(usize, usize)> = Vec::new();
         for (u, neigh) in left_adj.iter().enumerate() {
             for &v in neigh {
@@ -183,8 +219,7 @@ mod tests {
         }
         let m = edges.len();
         if m > 20 {
-            // Guard so the brute force can never blow up on a malformed test.
-            return 0;
+            return None;
         }
         let mut best = 0;
         for mask in 0u32..(1u32 << m) {
@@ -207,7 +242,7 @@ mod tests {
                 best = size;
             }
         }
-        best
+        Some(best)
     }
 
     #[test]
@@ -336,20 +371,24 @@ mod tests {
         g
     }
 
-    /// Property test: Hopcroft–Karp must agree with brute force on small
-    /// random bipartite graphs.
+    /// Property test: Hopcroft–Karp must agree with Kuhn's algorithm on
+    /// small random bipartite graphs (and with full subset enumeration when
+    /// the graph is tiny enough for it to be feasible).
     #[allow(clippy::needless_pass_by_value)]
     #[quickcheck]
-    fn matches_brute_force_small(nl: u8, nr: u8, seed: u64) -> bool {
+    fn matches_reference_small(nl: u8, nr: u8, seed: u64) -> bool {
         let n_left = (nl as usize) % 6 + 1;
         let n_right = (nr as usize) % 6 + 1;
         let g = random_bipartite(n_left, n_right, seed);
         let (size, match_l, match_r) = hopcroft_karp(&g, n_right);
-        let expected = brute_force_matching(&g, n_right);
-        if size != expected {
+        if size != kuhn_matching(&g, n_right) {
             return false;
         }
-        // Validate the matching is a valid set of edges.
+        if let Some(brute) = brute_force_matching(&g, n_right) {
+            if size != brute {
+                return false;
+            }
+        }
         if match_l.len() != n_left || match_r.len() != n_right {
             return false;
         }
