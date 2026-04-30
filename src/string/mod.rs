@@ -2,6 +2,8 @@
 
 pub mod anagram;
 
+pub mod booths_least_rotation;
+
 pub mod boyer_moore_horspool;
 
 pub mod kmp;
