@@ -197,6 +197,9 @@ Other:
   Kadane (max subarray sum), Subset-sum, Longest Palindromic Subsequence,
   Weighted Interval Scheduling, Matrix Exponentiation, Counting Tilings (2×N / 4×N grids)
 
+### Geometry
+- Klee's algorithm — area of the union of axis-aligned rectangles in O(n log n)
+
 ## Contributing
 
 1. Pick an open issue (or open a new one describing the algorithm).

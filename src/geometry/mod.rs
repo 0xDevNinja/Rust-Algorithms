@@ -8,3 +8,4 @@ pub mod polygon_centroid;
 pub mod rotating_calipers;
 pub mod segment_intersection;
 pub mod welzl_smallest_enclosing_circle;
+pub mod klee;
