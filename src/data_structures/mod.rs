@@ -7,3 +7,5 @@ pub mod fenwick_tree;
 pub mod segment_tree;
 
 pub mod trie;
+
+pub mod lru_cache;
