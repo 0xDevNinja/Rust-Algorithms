@@ -33,3 +33,5 @@ pub mod gnome_sort;
 pub mod comb_sort;
 
 pub mod pigeonhole_sort;
+
+pub mod external_kway_merge;
