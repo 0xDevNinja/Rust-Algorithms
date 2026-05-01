@@ -189,6 +189,7 @@ Other:
 - Line-segment intersection
 - Rotating calipers — polygon diameter, O(n)
 - Welzl's smallest enclosing circle — expected O(n)
+- Rectangle Union Area - Klee's Algorithm
 
 ### Dynamic Programming
 - Fibonacci (memoised), 0/1 Knapsack, Longest Common Subsequence,
