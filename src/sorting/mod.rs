@@ -10,6 +10,8 @@ pub mod merge_sort;
 
 pub mod quick_sort;
 
+pub mod randomized_quicksort;
+
 pub mod quickselect;
 
 pub mod heap_sort;
