@@ -9,3 +9,5 @@ pub mod segment_tree;
 pub mod trie;
 
 pub mod lru_cache;
+
+pub mod sqrt_decomposition;
