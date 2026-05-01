@@ -73,6 +73,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Point In Polygon](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/point_in_polygon.rs)
 - [Polygon Area](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/polygon_area.rs)
 - [Polygon Centroid](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/polygon_centroid.rs)
+- [Rectangle Union Area](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/rectangle_union_area.rs)
 - [Rotating Calipers](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/rotating_calipers.rs)
 - [Segment Intersection](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/segment_intersection.rs)
 - [Welzl Smallest Enclosing Circle](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/welzl_smallest_enclosing_circle.rs)
