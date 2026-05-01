@@ -14,6 +14,8 @@ pub mod prim;
 
 pub mod topological_sort;
 
+pub mod dag_shortest_path;
+
 pub mod floyd_warshall;
 
 pub mod a_star;
