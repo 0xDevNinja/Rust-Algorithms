@@ -1,4 +1,7 @@
-//! Backtracking algorithms: N-queens, Sudoku, permutations, Knight's tour.
+//! Backtracking algorithms: N-queens, Sudoku, permutations, Knight's tour,
+//! Hamiltonian path / cycle.
+
+pub mod hamiltonian;
 
 pub mod knights_tour;
 
