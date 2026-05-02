@@ -33,3 +33,5 @@ pub mod tree_diameter;
 pub mod bipartite;
 
 pub mod zero_one_bfs;
+
+pub mod lca_binary_lifting;
