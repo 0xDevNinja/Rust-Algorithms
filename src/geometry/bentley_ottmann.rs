@@ -553,8 +553,8 @@ mod tests {
         let on_segment = |p: (f64, f64), s: &Segment| -> bool {
             let (ax, ay) = s.left();
             let (bx, by) = s.right();
-            let cross = (bx - ax) * (p.1 - ay) - (by - ay) * (p.0 - ax);
-            let len = ((bx - ax).powi(2) + (by - ay).powi(2)).sqrt();
+            let cross = (bx - ax).mul_add(p.1 - ay, -((by - ay) * (p.0 - ax)));
+            let len = (bx - ax).hypot(by - ay);
             if len == 0.0 {
                 return false;
             }
