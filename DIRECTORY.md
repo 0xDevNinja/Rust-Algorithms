@@ -52,6 +52,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Treap](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/treap.rs)
 - [Trie](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/trie.rs)
 - [Union Find](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/union_find.rs)
+- [Wavelet Tree](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/wavelet_tree.rs)
 
 ## Dynamic Programming
 
