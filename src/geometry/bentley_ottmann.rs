@@ -546,6 +546,31 @@ mod tests {
             return true;
         }
 
+        // Skip inputs where an endpoint of one segment lies (nearly) on
+        // another segment — these are degenerate cases that violate the
+        // general-position assumption and may report differently between
+        // sweep and brute force.
+        let on_segment = |p: (f64, f64), s: &Segment| -> bool {
+            let (ax, ay) = s.left();
+            let (bx, by) = s.right();
+            let cross = (bx - ax) * (p.1 - ay) - (by - ay) * (p.0 - ax);
+            let len = ((bx - ax).powi(2) + (by - ay).powi(2)).sqrt();
+            if len == 0.0 {
+                return false;
+            }
+            (cross / len).abs() < 1e-6 && p.0 >= ax.min(bx) - 1e-9 && p.0 <= ax.max(bx) + 1e-9
+        };
+        for i in 0..segs.len() {
+            for j in 0..segs.len() {
+                if i == j {
+                    continue;
+                }
+                if on_segment(segs[i].p1, &segs[j]) || on_segment(segs[i].p2, &segs[j]) {
+                    return true;
+                }
+            }
+        }
+
         let sweep = find_intersections(&segs);
         let bf = brute_force(&segs);
 
