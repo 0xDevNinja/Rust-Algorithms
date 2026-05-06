@@ -33,3 +33,5 @@ pub mod counting_tilings;
 pub mod knuth_optimization;
 
 pub mod profile_dp;
+
+pub mod divide_and_conquer_optimization;
