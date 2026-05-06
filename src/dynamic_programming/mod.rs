@@ -29,3 +29,5 @@ pub mod weighted_interval_scheduling;
 pub mod matrix_exponentiation;
 
 pub mod counting_tilings;
+
+pub mod knuth_optimization;
