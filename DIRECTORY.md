@@ -74,6 +74,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Bentley Ottmann](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/bentley_ottmann.rs)
 - [Closest Pair](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/closest_pair.rs)
 - [Convex Hull](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/convex_hull.rs)
+- [Ear Clipping](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/ear_clipping.rs)
 - [Manhattan Chebyshev](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/manhattan_chebyshev.rs)
 - [Picks Theorem](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/picks_theorem.rs)
 - [Point In Polygon](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/point_in_polygon.rs)
@@ -151,6 +152,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 ## Searching
 
 - [Binary Search](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/searching/binary_search.rs)
+- [Binary Search Answer](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/searching/binary_search_answer.rs)
 - [Exponential Search](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/searching/exponential_search.rs)
 - [Fibonacci Search](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/searching/fibonacci_search.rs)
 - [Interpolation Search](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/searching/interpolation_search.rs)
