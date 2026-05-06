@@ -51,3 +51,5 @@ pub mod skip_list;
 pub mod monotonic_stack;
 
 pub mod sliding_window_minimum;
+
+pub mod prefix_sum_2d;
