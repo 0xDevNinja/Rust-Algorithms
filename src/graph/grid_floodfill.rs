@@ -110,7 +110,7 @@ pub fn floodfill<T: Eq + Clone>(
     grid: &mut [Vec<T>],
     start_row: usize,
     start_col: usize,
-    new_value: T,
+    new_value: &T,
     conn: Connectivity,
 ) -> usize {
     let rows = grid.len();
@@ -120,7 +120,7 @@ pub fn floodfill<T: Eq + Clone>(
         "floodfill: start ({start_row},{start_col}) out of bounds for {rows}x{cols}"
     );
     let source = grid[start_row][start_col].clone();
-    if source == new_value {
+    if source == *new_value {
         return 0;
     }
     let dirs: &[(isize, isize)] = match conn {
@@ -208,7 +208,7 @@ mod tests {
     #[test]
     fn floodfill_paints_only_component() {
         let mut g = vec![vec![1_u8, 1, 0], vec![1, 1, 0], vec![0, 0, 0]];
-        let painted = floodfill(&mut g, 0, 0, 9, Connectivity::Four);
+        let painted = floodfill(&mut g, 0, 0, &9, Connectivity::Four);
         assert_eq!(painted, 4);
         assert_eq!(g, vec![vec![9, 9, 0], vec![9, 9, 0], vec![0, 0, 0]]);
     }
@@ -216,7 +216,7 @@ mod tests {
     #[test]
     fn floodfill_noop_when_color_unchanged() {
         let mut g = vec![vec![5_u8, 5], vec![5, 5]];
-        let painted = floodfill(&mut g, 0, 0, 5, Connectivity::Four);
+        let painted = floodfill(&mut g, 0, 0, &5, Connectivity::Four);
         assert_eq!(painted, 0);
         assert_eq!(g, vec![vec![5, 5], vec![5, 5]]);
     }
@@ -224,7 +224,7 @@ mod tests {
     #[test]
     fn floodfill_diagonal_via_eight_connectivity() {
         let mut g = vec![vec![1_u8, 0], vec![0, 1]];
-        let painted = floodfill(&mut g, 0, 0, 9, Connectivity::Eight);
+        let painted = floodfill(&mut g, 0, 0, &9, Connectivity::Eight);
         assert_eq!(painted, 2);
         assert_eq!(g, vec![vec![9, 0], vec![0, 9]]);
     }
