@@ -38,6 +38,7 @@ pub mod b_tree;
 pub mod binomial_heap;
 pub mod dynamic_segment_tree;
 pub mod kd_tree_2d;
+pub mod link_cut_tree;
 pub mod merge_sort_tree;
 pub mod red_black_tree;
 pub mod segment_tree_2d;
