@@ -17,3 +17,5 @@ pub mod fibonacci_search;
 pub mod sublist_search;
 
 pub mod two_pointers;
+
+pub mod meet_in_the_middle;
