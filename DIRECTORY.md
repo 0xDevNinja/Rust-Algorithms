@@ -37,6 +37,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Mos Algorithm](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/mos_algorithm.rs)
 - [Open Addressing Hash Table](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/open_addressing_hash_table.rs)
 - [Order Statistic Tree](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/order_statistic_tree.rs)
+- [Persistent Segment Tree](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/persistent_segment_tree.rs)
 - [Prefix Sum](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/prefix_sum.rs)
 - [Prefix Sum 2d](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/prefix_sum_2d.rs)
 - [Red Black Tree](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/red_black_tree.rs)
@@ -147,6 +148,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Modular Ncr](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/math/modular_ncr.rs)
 - [Reservoir Sampling](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/math/reservoir_sampling.rs)
 - [Sieve Of Eratosthenes](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/math/sieve_of_eratosthenes.rs)
+- [Tonelli Shanks](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/math/tonelli_shanks.rs)
 - [Trial Division](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/math/trial_division.rs)
 - [Zellers Congruence](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/math/zellers_congruence.rs)
 
