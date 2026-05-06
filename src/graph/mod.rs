@@ -71,3 +71,5 @@ pub mod min_path_cover_dag;
 pub mod bron_kerbosch;
 
 pub mod push_relabel;
+
+pub mod grid_floodfill;
