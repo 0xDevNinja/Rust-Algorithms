@@ -3,6 +3,7 @@
 pub mod bentley_ottmann;
 pub mod closest_pair;
 pub mod convex_hull;
+pub mod ear_clipping;
 pub mod picks_theorem;
 pub mod point_in_polygon;
 pub mod polygon_area;
