@@ -37,6 +37,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Mos Algorithm](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/mos_algorithm.rs)
 - [Open Addressing Hash Table](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/open_addressing_hash_table.rs)
 - [Order Statistic Tree](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/order_statistic_tree.rs)
+- [Prefix Sum](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/prefix_sum.rs)
 - [Prefix Sum 2d](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/prefix_sum_2d.rs)
 - [Red Black Tree](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/red_black_tree.rs)
 - [Segment Tree](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/segment_tree.rs)
