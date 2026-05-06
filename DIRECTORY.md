@@ -59,6 +59,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 
 - [Coin Change](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/dynamic_programming/coin_change.rs)
 - [Counting Tilings](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/dynamic_programming/counting_tilings.rs)
+- [Divide And Conquer Optimization](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/dynamic_programming/divide_and_conquer_optimization.rs)
 - [Edit Distance](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/dynamic_programming/edit_distance.rs)
 - [Fibonacci](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/dynamic_programming/fibonacci.rs)
 - [Kadane](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/dynamic_programming/kadane.rs)
