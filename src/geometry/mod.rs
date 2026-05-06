@@ -3,6 +3,7 @@
 pub mod bentley_ottmann;
 pub mod closest_pair;
 pub mod convex_hull;
+pub mod delaunay;
 pub mod ear_clipping;
 pub mod half_plane_intersection;
 pub mod picks_theorem;
