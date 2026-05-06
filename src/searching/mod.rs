@@ -19,3 +19,5 @@ pub mod sublist_search;
 pub mod two_pointers;
 
 pub mod meet_in_the_middle;
+
+pub mod binary_search_answer;
