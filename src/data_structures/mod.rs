@@ -57,3 +57,5 @@ pub mod prefix_sum_2d;
 pub mod prefix_sum;
 
 pub mod persistent_segment_tree;
+
+pub mod wavelet_tree;
