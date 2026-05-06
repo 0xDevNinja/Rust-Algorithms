@@ -149,6 +149,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Linear Search](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/searching/linear_search.rs)
 - [Sublist Search](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/searching/sublist_search.rs)
 - [Ternary Search](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/searching/ternary_search.rs)
+- [Two Pointers](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/searching/two_pointers.rs)
 
 ## Sorting
 
