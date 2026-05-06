@@ -37,6 +37,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Mos Algorithm](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/mos_algorithm.rs)
 - [Open Addressing Hash Table](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/open_addressing_hash_table.rs)
 - [Order Statistic Tree](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/order_statistic_tree.rs)
+- [Prefix Sum 2d](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/prefix_sum_2d.rs)
 - [Red Black Tree](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/red_black_tree.rs)
 - [Segment Tree](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/segment_tree.rs)
 - [Segment Tree 2d](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/data_structures/segment_tree_2d.rs)
@@ -70,6 +71,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 
 ## Geometry
 
+- [Bentley Ottmann](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/bentley_ottmann.rs)
 - [Closest Pair](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/closest_pair.rs)
 - [Convex Hull](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/convex_hull.rs)
 - [Manhattan Chebyshev](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/manhattan_chebyshev.rs)
