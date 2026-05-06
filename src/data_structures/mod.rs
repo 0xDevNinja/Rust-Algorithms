@@ -49,3 +49,5 @@ pub mod order_statistic_tree;
 pub mod skip_list;
 
 pub mod monotonic_stack;
+
+pub mod sliding_window_minimum;
