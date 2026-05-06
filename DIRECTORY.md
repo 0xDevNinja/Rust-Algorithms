@@ -154,6 +154,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Interpolation Search](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/searching/interpolation_search.rs)
 - [Jump Search](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/searching/jump_search.rs)
 - [Linear Search](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/searching/linear_search.rs)
+- [Meet In The Middle](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/searching/meet_in_the_middle.rs)
 - [Sublist Search](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/searching/sublist_search.rs)
 - [Ternary Search](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/searching/ternary_search.rs)
 - [Two Pointers](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/searching/two_pointers.rs)
