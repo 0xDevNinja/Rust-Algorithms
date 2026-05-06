@@ -31,3 +31,5 @@ pub mod matrix_exponentiation;
 pub mod counting_tilings;
 
 pub mod knuth_optimization;
+
+pub mod profile_dp;
