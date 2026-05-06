@@ -9,3 +9,5 @@ pub mod rectangle_union_area;
 pub mod rotating_calipers;
 pub mod segment_intersection;
 pub mod welzl_smallest_enclosing_circle;
+
+pub mod manhattan_chebyshev;
