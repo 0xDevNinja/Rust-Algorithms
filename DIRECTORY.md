@@ -71,12 +71,15 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 
 - [Closest Pair](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/closest_pair.rs)
 - [Convex Hull](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/convex_hull.rs)
+- [Manhattan Chebyshev](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/manhattan_chebyshev.rs)
+- [Picks Theorem](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/picks_theorem.rs)
 - [Point In Polygon](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/point_in_polygon.rs)
 - [Polygon Area](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/polygon_area.rs)
 - [Polygon Centroid](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/polygon_centroid.rs)
 - [Rectangle Union Area](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/rectangle_union_area.rs)
 - [Rotating Calipers](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/rotating_calipers.rs)
 - [Segment Intersection](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/segment_intersection.rs)
+- [Sutherland Hodgman](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/sutherland_hodgman.rs)
 - [Welzl Smallest Enclosing Circle](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/geometry/welzl_smallest_enclosing_circle.rs)
 
 ## Graph
@@ -138,6 +141,7 @@ Source root: [`src/`](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/sr
 - [Modular Ncr](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/math/modular_ncr.rs)
 - [Reservoir Sampling](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/math/reservoir_sampling.rs)
 - [Sieve Of Eratosthenes](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/math/sieve_of_eratosthenes.rs)
+- [Trial Division](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/math/trial_division.rs)
 - [Zellers Congruence](https://github.com/0xDevNinja/Rust-Algorithms/blob/main/src/math/zellers_congruence.rs)
 
 ## Searching
