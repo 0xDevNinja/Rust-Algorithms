@@ -51,3 +51,4 @@ pub mod bigint;
 pub mod integer_partition;
 pub mod prufer;
 pub mod inclusion_exclusion;
+pub mod toy_rsa;
