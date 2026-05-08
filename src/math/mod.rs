@@ -45,3 +45,4 @@ pub mod newton_root;
 pub mod ntt;
 pub mod solovay_strassen;
 pub mod strassen;
+pub mod mobius;
