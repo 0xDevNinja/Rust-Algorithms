@@ -43,3 +43,4 @@ pub mod permutation_rank;
 pub mod sprague_grundy;
 pub mod newton_root;
 pub mod ntt;
+pub mod solovay_strassen;
