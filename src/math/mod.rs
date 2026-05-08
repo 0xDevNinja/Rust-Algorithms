@@ -27,3 +27,5 @@ pub mod reservoir_sampling;
 pub mod trial_division;
 
 pub mod tonelli_shanks;
+
+pub mod linear_sieve;
