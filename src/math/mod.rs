@@ -36,3 +36,4 @@ pub mod euler_totient;
 pub mod gaussian_elimination;
 pub mod bisection;
 pub mod fft;
+pub mod karatsuba;
