@@ -34,3 +34,4 @@ pub mod miller_rabin;
 pub mod chinese_remainder;
 pub mod euler_totient;
 pub mod gaussian_elimination;
+pub mod bisection;
