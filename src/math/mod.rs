@@ -39,3 +39,4 @@ pub mod fft;
 pub mod karatsuba;
 pub mod simpson;
 pub mod discrete_log_bsgs;
+pub mod permutation_rank;
