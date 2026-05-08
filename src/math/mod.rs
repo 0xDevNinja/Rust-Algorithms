@@ -48,3 +48,4 @@ pub mod strassen;
 pub mod mobius;
 pub mod xor_linear_basis;
 pub mod bigint;
+pub mod integer_partition;
