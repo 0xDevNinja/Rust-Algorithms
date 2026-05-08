@@ -42,3 +42,4 @@ pub mod discrete_log_bsgs;
 pub mod permutation_rank;
 pub mod sprague_grundy;
 pub mod newton_root;
+pub mod ntt;
