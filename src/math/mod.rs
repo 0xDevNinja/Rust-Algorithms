@@ -30,3 +30,4 @@ pub mod tonelli_shanks;
 
 pub mod linear_sieve;
 pub mod diophantine;
+pub mod miller_rabin;
