@@ -75,3 +75,5 @@ pub mod push_relabel;
 pub mod grid_floodfill;
 
 pub mod hungarian;
+
+pub mod blossom;
