@@ -53,3 +53,4 @@ pub mod prufer;
 pub mod inclusion_exclusion;
 pub mod toy_rsa;
 pub mod burnside;
+pub mod markov_stationary;
