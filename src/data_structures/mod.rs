@@ -37,6 +37,7 @@ pub mod fibonacci_heap;
 pub mod b_tree;
 pub mod binomial_heap;
 pub mod bit_vector_set;
+pub mod d_ary_heap;
 pub mod dynamic_segment_tree;
 pub mod kd_tree_2d;
 pub mod link_cut_tree;
