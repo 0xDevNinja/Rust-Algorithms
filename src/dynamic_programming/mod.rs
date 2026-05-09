@@ -36,10 +36,10 @@ pub mod profile_dp;
 
 pub mod divide_and_conquer_optimization;
 
-pub mod minimax_alpha_beta;
-pub mod digit_dp;
-pub mod sos_dp;
 pub mod convex_hull_trick;
-pub mod optimal_bst;
-pub mod tree_dp_rerooting;
+pub mod digit_dp;
 pub mod held_karp;
+pub mod minimax_alpha_beta;
+pub mod optimal_bst;
+pub mod sos_dp;
+pub mod tree_dp_rerooting;
