@@ -38,6 +38,7 @@ pub mod diophantine;
 pub mod discrete_log_bsgs;
 pub mod euler_totient;
 pub mod fft;
+pub mod floyd_random_sample;
 pub mod gaussian_elimination;
 pub mod inclusion_exclusion;
 pub mod integer_partition;
