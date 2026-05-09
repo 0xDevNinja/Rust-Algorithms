@@ -35,3 +35,5 @@ pub mod comb_sort;
 pub mod pigeonhole_sort;
 
 pub mod external_kway_merge;
+
+pub mod array_rotation;
