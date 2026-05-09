@@ -40,3 +40,4 @@ pub mod minimax_alpha_beta;
 pub mod digit_dp;
 pub mod sos_dp;
 pub mod convex_hull_trick;
+pub mod optimal_bst;
