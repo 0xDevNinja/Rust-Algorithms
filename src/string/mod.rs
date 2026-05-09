@@ -26,6 +26,8 @@ pub mod lyndon_duval;
 
 pub mod manacher;
 
+pub mod markov_text;
+
 pub mod polynomial_hash;
 
 pub mod rabin_karp;
