@@ -4,6 +4,8 @@ pub mod aho_corasick;
 
 pub mod anagram;
 
+pub mod anagram_grouping;
+
 pub mod booths_least_rotation;
 
 pub mod boyer_moore;
