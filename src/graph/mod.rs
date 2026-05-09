@@ -77,3 +77,4 @@ pub mod grid_floodfill;
 pub mod hungarian;
 
 pub mod blossom;
+pub mod walk_counts;
