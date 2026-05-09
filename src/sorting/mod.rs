@@ -12,6 +12,8 @@ pub mod quick_sort;
 
 pub mod randomized_quicksort;
 
+pub mod three_way_quicksort;
+
 pub mod quickselect;
 
 pub mod median_of_medians;
