@@ -41,3 +41,4 @@ pub mod digit_dp;
 pub mod sos_dp;
 pub mod convex_hull_trick;
 pub mod optimal_bst;
+pub mod tree_dp_rerooting;
