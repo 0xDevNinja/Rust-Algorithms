@@ -40,3 +40,5 @@ pub mod external_kway_merge;
 
 pub mod array_rotation;
 pub mod bit_vector_sort;
+
+pub mod fisher_yates_shuffle;
