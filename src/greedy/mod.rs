@@ -8,3 +8,4 @@ pub mod huffman;
 pub mod job_sequencing;
 pub mod set_cover;
 pub mod stable_matching;
+pub mod tsp_mst_approx;
