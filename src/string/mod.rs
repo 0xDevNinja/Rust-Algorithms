@@ -18,6 +18,8 @@ pub mod kmp;
 
 pub mod lcp_kasai;
 
+pub mod longest_repeated_substring;
+
 pub mod lyndon_duval;
 
 pub mod manacher;
