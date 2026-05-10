@@ -34,6 +34,8 @@ pub mod rabin_karp;
 
 pub mod roman_numerals;
 
+pub mod reverse_words;
+
 pub mod run_length_encoding;
 
 pub mod suffix_array;
