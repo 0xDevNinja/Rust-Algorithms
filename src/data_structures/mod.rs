@@ -63,15 +63,15 @@ pub mod persistent_segment_tree;
 
 pub mod wavelet_tree;
 
-pub mod nth_from_last;
-pub mod list_cycle;
-pub mod singly_linked_list;
-pub mod merge_sorted_lists;
 pub mod binary_tree;
-pub mod sorted_to_bst;
-pub mod path_sum;
-pub mod tree_serialize;
-pub mod list_bigint_add;
-pub mod list_middle;
-pub mod invert_tree;
 pub mod bst_validation;
+pub mod invert_tree;
+pub mod list_bigint_add;
+pub mod list_cycle;
+pub mod list_middle;
+pub mod merge_sorted_lists;
+pub mod nth_from_last;
+pub mod path_sum;
+pub mod singly_linked_list;
+pub mod sorted_to_bst;
+pub mod tree_serialize;
