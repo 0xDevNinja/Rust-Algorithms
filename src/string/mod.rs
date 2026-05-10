@@ -16,6 +16,8 @@ pub mod eertree;
 
 pub mod finite_automaton_match;
 
+pub mod first_non_repeating;
+
 pub mod kmp;
 
 pub mod lcp_kasai;
