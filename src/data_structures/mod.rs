@@ -65,3 +65,4 @@ pub mod wavelet_tree;
 
 pub mod nth_from_last;
 pub mod list_cycle;
+pub mod singly_linked_list;
