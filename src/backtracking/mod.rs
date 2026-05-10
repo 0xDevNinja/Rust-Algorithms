@@ -10,6 +10,8 @@ pub mod n_queens;
 
 pub mod permutations_combinations;
 
+pub mod phone_keypad;
+
 pub mod sudoku;
 
 pub mod valid_parentheses;
