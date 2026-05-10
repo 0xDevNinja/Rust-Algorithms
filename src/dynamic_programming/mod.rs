@@ -42,6 +42,7 @@ pub mod buy_sell_stock;
 pub mod convex_hull_trick;
 pub mod digit_dp;
 pub mod held_karp;
+pub mod max_product_subarray;
 pub mod minimax_alpha_beta;
 pub mod optimal_bst;
 pub mod sos_dp;
