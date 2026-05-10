@@ -38,6 +38,7 @@ pub mod profile_dp;
 
 pub mod divide_and_conquer_optimization;
 
+pub mod buy_sell_stock;
 pub mod convex_hull_trick;
 pub mod digit_dp;
 pub mod held_karp;
