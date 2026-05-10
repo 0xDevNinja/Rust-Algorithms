@@ -1,5 +1,5 @@
 //! Backtracking algorithms: N-queens, Sudoku, permutations, Knight's tour,
-//! Hamiltonian path / cycle.
+//! Hamiltonian path / cycle, valid parentheses generation.
 
 pub mod hamiltonian;
 
@@ -10,3 +10,5 @@ pub mod n_queens;
 pub mod permutations_combinations;
 
 pub mod sudoku;
+
+pub mod valid_parentheses;
