@@ -70,3 +70,4 @@ pub mod merge_sorted_lists;
 pub mod binary_tree;
 pub mod sorted_to_bst;
 pub mod path_sum;
+pub mod tree_serialize;
