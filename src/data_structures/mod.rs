@@ -68,3 +68,4 @@ pub mod list_cycle;
 pub mod singly_linked_list;
 pub mod merge_sorted_lists;
 pub mod binary_tree;
+pub mod sorted_to_bst;
