@@ -64,3 +64,4 @@ pub mod persistent_segment_tree;
 pub mod wavelet_tree;
 
 pub mod nth_from_last;
+pub mod list_cycle;
