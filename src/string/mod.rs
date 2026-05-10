@@ -45,3 +45,5 @@ pub mod suffix_automaton;
 pub mod suffix_tree;
 
 pub mod z_algorithm;
+
+pub mod atoi;
