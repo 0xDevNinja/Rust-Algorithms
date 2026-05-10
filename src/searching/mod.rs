@@ -22,5 +22,5 @@ pub mod meet_in_the_middle;
 
 pub mod binary_search_answer;
 
-pub mod two_sum;
 pub mod spiral_matrix;
+pub mod two_sum;

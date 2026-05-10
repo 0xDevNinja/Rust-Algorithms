@@ -14,5 +14,5 @@ pub mod phone_keypad;
 
 pub mod sudoku;
 
-pub mod valid_parentheses;
 pub mod tower_of_hanoi;
+pub mod valid_parentheses;
