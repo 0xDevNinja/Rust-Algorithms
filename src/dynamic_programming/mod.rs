@@ -41,6 +41,7 @@ pub mod divide_and_conquer_optimization;
 pub mod buy_sell_stock;
 pub mod convex_hull_trick;
 pub mod digit_dp;
+pub mod game_dag;
 pub mod held_karp;
 pub mod max_product_subarray;
 pub mod minimax_alpha_beta;
