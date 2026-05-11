@@ -49,3 +49,5 @@ pub mod suffix_tree;
 pub mod z_algorithm;
 
 pub mod atoi;
+
+pub mod trie_spell_checker;
