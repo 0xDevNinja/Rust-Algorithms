@@ -55,6 +55,8 @@ pub mod monotonic_stack;
 
 pub mod sliding_window_minimum;
 
+pub mod sliding_window_k_distinct;
+
 pub mod prefix_sum_2d;
 
 pub mod prefix_sum;
