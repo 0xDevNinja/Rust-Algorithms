@@ -20,3 +20,4 @@ pub mod welzl_smallest_enclosing_circle;
 
 pub mod manhattan_chebyshev;
 pub mod planar_bipartite_matching;
+pub mod rabin_closest_pair;
