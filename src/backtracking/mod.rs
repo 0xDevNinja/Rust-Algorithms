@@ -3,6 +3,7 @@
 //! Hamiltonian path / cycle, Tower of Hanoi.
 
 pub mod countdown_solver;
+pub mod dancing_links;
 
 pub mod hamiltonian;
 
