@@ -2,6 +2,8 @@
 //! Hamiltonian path / cycle, valid parentheses generation.
 //! Hamiltonian path / cycle, Tower of Hanoi.
 
+pub mod countdown_solver;
+
 pub mod hamiltonian;
 
 pub mod knights_tour;
