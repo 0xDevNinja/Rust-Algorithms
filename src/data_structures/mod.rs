@@ -77,3 +77,5 @@ pub mod path_sum;
 pub mod singly_linked_list;
 pub mod sorted_to_bst;
 pub mod tree_serialize;
+
+pub mod largest_histogram_rect;
