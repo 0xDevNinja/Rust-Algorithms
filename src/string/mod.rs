@@ -50,5 +50,5 @@ pub mod z_algorithm;
 
 pub mod atoi;
 
-pub mod trie_spell_checker;
 pub mod expression_evaluator;
+pub mod trie_spell_checker;
