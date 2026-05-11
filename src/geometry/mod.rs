@@ -6,6 +6,7 @@ pub mod convex_hull;
 pub mod delaunay;
 pub mod ear_clipping;
 pub mod half_plane_intersection;
+pub mod interval_union;
 pub mod picks_theorem;
 pub mod point_in_polygon;
 pub mod polygon_area;
