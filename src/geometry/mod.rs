@@ -19,3 +19,4 @@ pub mod sutherland_hodgman;
 pub mod welzl_smallest_enclosing_circle;
 
 pub mod manhattan_chebyshev;
+pub mod planar_bipartite_matching;
