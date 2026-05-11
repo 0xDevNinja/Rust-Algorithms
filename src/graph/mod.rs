@@ -80,3 +80,4 @@ pub mod blossom;
 pub mod walk_counts;
 
 pub mod ford_fulkerson;
+pub mod min_mean_cycle;
