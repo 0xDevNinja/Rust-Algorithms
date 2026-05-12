@@ -28,3 +28,4 @@ pub mod two_sum;
 pub mod k_sum_meet_middle;
 
 pub mod product_except_self;
+pub mod first_missing_positive;
