@@ -29,3 +29,4 @@ pub mod k_sum_meet_middle;
 
 pub mod product_except_self;
 pub mod first_missing_positive;
+pub mod trapping_rain_water;
