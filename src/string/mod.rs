@@ -55,3 +55,4 @@ pub mod trie_spell_checker;
 
 pub mod trie_autocomplete;
 pub mod rpn_evaluator;
+pub mod text_justify;
