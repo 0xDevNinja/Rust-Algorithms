@@ -54,3 +54,4 @@ pub mod expression_evaluator;
 pub mod trie_spell_checker;
 
 pub mod trie_autocomplete;
+pub mod rpn_evaluator;
