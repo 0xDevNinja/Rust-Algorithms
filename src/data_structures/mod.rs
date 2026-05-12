@@ -67,6 +67,7 @@ pub mod wavelet_tree;
 
 pub mod binary_tree;
 pub mod bst_validation;
+pub mod build_tree_pre_in;
 pub mod invert_tree;
 pub mod list_bigint_add;
 pub mod list_cycle;
