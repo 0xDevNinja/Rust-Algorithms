@@ -79,3 +79,5 @@ pub mod sorted_to_bst;
 pub mod tree_serialize;
 
 pub mod largest_histogram_rect;
+
+pub mod xor_doubly_linked_list;
