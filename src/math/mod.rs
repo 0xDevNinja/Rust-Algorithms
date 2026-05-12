@@ -53,6 +53,7 @@ pub mod ntt;
 pub mod permutation_rank;
 pub mod pollard_rho;
 pub mod prufer;
+pub mod rand5_from_rand7;
 pub mod simpson;
 pub mod solovay_strassen;
 pub mod sprague_grundy;
