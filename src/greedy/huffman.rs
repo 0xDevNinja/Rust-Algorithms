@@ -112,7 +112,7 @@ pub fn build_codes(freqs: &[(char, u64)]) -> HashMap<char, Vec<bool>> {
     // Sort by (char, freq) so the initial heap-push order is fully
     // deterministic, independent of the input slice's order.
     let mut leaves: Vec<(char, u64)> = totals.into_iter().collect();
-    leaves.sort_unstable_by(|a, b| a.0.cmp(&b.0));
+    leaves.sort_unstable_by_key(|&(ch, _)| ch);
 
     let mut heap: BinaryHeap<Reverse<HeapItem>> = BinaryHeap::with_capacity(leaves.len());
     let mut next_seq: u64 = 0;
