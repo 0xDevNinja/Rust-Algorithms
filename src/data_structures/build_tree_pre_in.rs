@@ -79,19 +79,19 @@ fn build<T: Eq + Hash + Clone>(
 mod tests {
     use super::*;
 
-    fn preorder_collect<T: Clone>(node: &Option<Box<Node<T>>>, out: &mut Vec<T>) {
+    fn preorder_collect<T: Clone>(node: Option<&Node<T>>, out: &mut Vec<T>) {
         if let Some(n) = node {
             out.push(n.value.clone());
-            preorder_collect(&n.left, out);
-            preorder_collect(&n.right, out);
+            preorder_collect(n.left.as_deref(), out);
+            preorder_collect(n.right.as_deref(), out);
         }
     }
 
-    fn inorder_collect<T: Clone>(node: &Option<Box<Node<T>>>, out: &mut Vec<T>) {
+    fn inorder_collect<T: Clone>(node: Option<&Node<T>>, out: &mut Vec<T>) {
         if let Some(n) = node {
-            inorder_collect(&n.left, out);
+            inorder_collect(n.left.as_deref(), out);
             out.push(n.value.clone());
-            inorder_collect(&n.right, out);
+            inorder_collect(n.right.as_deref(), out);
         }
     }
 
@@ -126,17 +126,10 @@ mod tests {
         // Traversal round-trip.
         let mut got_pre = Vec::new();
         let mut got_in = Vec::new();
-        preorder_collect(
-            &Some(Box::new(Node {
-                value: tree.value,
-                left: tree.left,
-                right: tree.right,
-            })),
-            &mut got_pre,
-        );
+        preorder_collect(Some(tree.as_ref()), &mut got_pre);
         // Rebuild for inorder check (previous tree was moved).
         let tree2 = build_tree(&pre, &ino).unwrap();
-        inorder_collect(&Some(tree2), &mut got_in);
+        inorder_collect(Some(tree2.as_ref()), &mut got_in);
         assert_eq!(got_pre, pre);
         assert_eq!(got_in, ino);
     }
