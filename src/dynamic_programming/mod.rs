@@ -43,6 +43,7 @@ pub mod convex_hull_trick;
 pub mod digit_dp;
 pub mod game_dag;
 pub mod held_karp;
+pub mod house_robber;
 pub mod largest_ones_rectangle;
 pub mod largest_ones_square;
 pub mod max_product_subarray;
