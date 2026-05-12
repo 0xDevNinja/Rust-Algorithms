@@ -7,6 +7,7 @@ pub mod fractional_knapsack;
 pub mod huffman;
 pub mod interval_point_cover;
 pub mod job_sequencing;
+pub mod meeting_rooms;
 pub mod set_cover;
 pub mod stable_matching;
 pub mod tsp_mst_approx;
