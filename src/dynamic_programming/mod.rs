@@ -53,3 +53,4 @@ pub mod optimal_bst;
 pub mod regex_matcher;
 pub mod sos_dp;
 pub mod tree_dp_rerooting;
+pub mod word_break;
