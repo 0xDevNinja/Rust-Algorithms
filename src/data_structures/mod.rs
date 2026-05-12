@@ -81,9 +81,9 @@ pub mod tree_serialize;
 
 pub mod largest_histogram_rect;
 
-pub mod xor_doubly_linked_list;
+pub mod game_of_life;
+pub mod lfu_cache;
 pub mod max_stack;
 pub mod running_median;
-pub mod game_of_life;
 pub mod unival_subtrees;
-pub mod lfu_cache;
+pub mod xor_doubly_linked_list;
