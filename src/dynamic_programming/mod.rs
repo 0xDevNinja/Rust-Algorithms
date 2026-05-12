@@ -50,5 +50,6 @@ pub mod largest_ones_square;
 pub mod max_product_subarray;
 pub mod minimax_alpha_beta;
 pub mod optimal_bst;
+pub mod regex_matcher;
 pub mod sos_dp;
 pub mod tree_dp_rerooting;
