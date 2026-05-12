@@ -79,8 +79,9 @@ pub mod hungarian;
 pub mod blossom;
 pub mod walk_counts;
 
-pub mod ford_fulkerson;
-pub mod min_mean_cycle;
-pub mod min_cost_time_ratio_cycle;
-pub mod min_st_cut;
 pub mod chinese_postman;
+pub mod currency_arbitrage;
+pub mod ford_fulkerson;
+pub mod min_cost_time_ratio_cycle;
+pub mod min_mean_cycle;
+pub mod min_st_cut;
