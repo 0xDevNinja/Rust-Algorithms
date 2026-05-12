@@ -85,3 +85,4 @@ pub mod max_stack;
 pub mod running_median;
 pub mod game_of_life;
 pub mod unival_subtrees;
+pub mod lfu_cache;
